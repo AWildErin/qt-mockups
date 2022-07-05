@@ -1,0 +1,13 @@
+QAbstractSpinBox
+{
+}
+
+QAbstractSpinBox::up-button
+{
+	border-image: url(toolimages:/valve_base/spinup.png) 1;
+}
+
+QAbstractSpinBox::down-button
+{
+	border-image: url(toolimages:/valve_base/spindown.png) 1;
+}

@@ -1,0 +1,117 @@
+QTreeView QHeaderView::section:horizontal:first
+{
+	border-top-left-radius: 5px;
+}
+
+QTreeView QHeaderView::section:horizontal:last
+{
+	border-top-right-radius: 5px;
+}
+
+QTreeView
+{
+	show-decoration-selected: 0;
+	padding-top: 1px;
+}
+
+QTreeView
+{
+	alternate-background-color: rgba(47, 47, 47, 100%);
+	alternate-background-color: rgba(137, 136, 135, 6%);
+}
+
+QTreeView QHeaderView
+{
+	margin-left: 1px;
+}
+
+QTreeView:focus
+{
+	alternate-background-color: rgba(137, 137, 137, 7%);
+
+	selection-background-color: rgba(49, 62, 81, 100%);
+	selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgba(69, 76, 87, 100%),
+		stop: 0.55 rgba(69, 76, 87, 60%),
+		stop: 1 rgba(69, 76, 87, 90%) );
+	selection-color: rgba(255, 251, 209, 100%);
+	border: 1px solid rgba(155, 153, 151, 25%);
+}
+
+QTreeView:disabled
+{
+	selection-color: rgba(255, 251, 209, 20%);
+	color: rgba(90, 90, 90,80%);
+}
+QTreeView::item
+{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	border: none;
+	border-bottom: 1px solid rgb( 38, 38, 39 );
+}
+
+QTreeView::item:selected:active
+{
+	background-color: rgb( 79, 82, 89 );
+}
+	
+QTreeView::item:selected:!active
+{
+	background-color: rgb( 79, 82, 89);
+}
+
+TreeView::branch
+{
+	background-color: transparent;
+}
+
+
+QTreeView::branch:has-siblings:!adjoins-item
+{
+	border-image: url(toolimages:/valve_base/branch_vline.png) 0;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	border-bottom: 1px solid  rgba(0, 0, 0, 9%);
+}
+
+QTreeView::branch:has-siblings:adjoins-item
+{
+	 border-image: url(toolimages:/valve_base/branch_fork.png) 0;
+	 margin: 0px;
+	 border: 0px;
+	 padding: 0px;
+	 border-bottom: 1px solid  rgba(0, 0, 0, 9%);
+	 }
+
+QTreeView::branch:!has-children:!has-siblings:adjoins-item
+{
+	border-image: url(toolimages:/valve_base/branch_end.png) 0;
+}
+
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings
+{
+	image: url(toolimages:/valve_base/branch_open.png);
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	border-bottom: 1px solid  rgba(0, 0, 0, 9%);
+}
+
+ QTreeView::branch:has-children:!has-siblings:closed,
+ QTreeView::branch:closed:has-children:has-siblings
+{
+	border-image: none;
+	image: url(toolimages:/valve_base/branch_closed.png);
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	border-bottom: 1px solid  rgba(0, 0, 0, 9%);
+}
+
+QTreeView QScrollBar
+{
+}

@@ -1,0 +1,53 @@
+ui--CTitledGroupBox
+{
+	background-color: #323232;
+}
+
+ui--CTitledGroupBox > QFrame > QWidget
+{
+	color: rgb(182, 182, 182);
+}
+
+ui--CTitledGroupBox[settingsButton="false"][expandButton="false"] QLabel#GroupTitle
+{
+	padding: 1px 0px;
+}
+
+ui--CTitledGroupBox QLabel#GroupTitle
+{
+	background-color: #525252;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 0px;
+}
+
+ui--CTitledGroupBox QPushButton#GroupSettings,
+ui--CTitledGroupBox QPushButton#GroupExpand
+{
+	max-width: 24px;
+	border: 0px;
+	background-color: #252525;
+	padding: 5px 0px;
+}
+
+ui--CTitledGroupBox QPushButton#GroupSettings
+{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+ui--CTitledGroupBox QPushButton#GroupExpand
+{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+ui--CTitledGroupBox QPushButton#GroupExpand:hover
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #BF773B;
+
+	background-color: #555E71;
+}

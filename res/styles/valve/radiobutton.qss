@@ -1,0 +1,51 @@
+QRadioButton
+{
+	padding: 0 px;
+	background-color: transparent;
+	spacing: 4px;
+}
+
+QRadioButton::indicator 
+{
+	width: 15px;
+	height:15px;
+}
+
+QRadioButton::indicator::unchecked
+{
+	image: url(toolimages:/valve_base/radio_unselected.png);
+}
+
+QRadioButton::indicator:unchecked:disabled
+{
+	image: url(toolimages:/valve_base/radio_unselected_disabled.png);
+}
+
+QRadioButton::indicator:unchecked:hover
+{
+	image: url(toolimages:/valve_base/radio_unselected_hover.png);
+}
+
+QRadioButton::indicator:unchecked:pressed
+{
+	image: url(toolimages:/valve_base/radio_unselected_pressed.png);
+}
+
+QRadioButton::indicator::checked
+{
+	image: url(toolimages:/valve_base/radio_selected.png);
+}
+
+QRadioButton::indicator::checked:disabled
+{
+	image: url(toolimages:/valve_base/radio_selected_disabled.png);
+}
+
+QRadioButton::indicator:checked:hover
+{
+}
+
+QRadioButton::indicator:checked:pressed
+{
+	image: url(toolimages:/valve_base/radio_pressed.png);
+}

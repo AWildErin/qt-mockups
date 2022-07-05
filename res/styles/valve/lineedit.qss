@@ -1,0 +1,53 @@
+QLineEdit,
+QComboBox[editable="true"],
+QAbstractSpinBox
+{
+	background-color: rgb(255, 0, 0, 0%);
+
+	border-image: url(toolimages:/valve_base/frame.png) 3;
+	border-width: 3px;
+	selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 #5D667D,
+		stop: 0.1 #5D667D,
+		stop: 1 #464D60 );
+	selection-color: white;
+}
+
+QLineEdit:hover,
+QComboBox[editable="true"]:hover,
+QAbstractSpinBox:hover
+{
+	border-image: url(toolimages:/valve_base/frame_hover.png) 3;
+	color: rgb(202, 202, 202);
+}
+
+QLineEdit:focus,
+QComboBox[editable="true"]:focus,
+QAbstractSpinBox:focus
+{
+	border-image: url(toolimages:/valve_base/frame_focus.png) 3;
+	color: rgb(212, 212, 212, 100%);
+}
+
+QLineEdit:disabled,
+QComboBox[editable="true"]:disabled,
+QSpinBox:disabled,
+QAbstractSpinBox:disabled
+{
+	border-image: url(toolimages:/valve_base/frame_disabled.png) 3;
+	color: rgba(92, 92, 92);
+	selection-color: rgba(209, 209, 209, 20%);
+}
+
+QLineEdit[frame="false"],
+QComboBox[editable="true"][frame="false"],
+QAbstractSpinBox[frame="false"]
+{
+	border-image: url(toolimages:/valve_base/frame_less.png) 2;
+	border-width:2;
+}
+
+QLineEdit[echoMode="2"]
+{
+	lineedit-password-character: 9679;
+}

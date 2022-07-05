@@ -1,0 +1,41 @@
+QTableView
+{
+	gridline-color: rgba(65, 65, 65 );
+	padding: 1px;
+}
+
+QTableView:focus
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+	stop: 0 rgba(51, 51, 51, 100%),
+	stop: 1 rgba(39, 39, 39, 100%) );
+	gridline-color: rgba(65, 65, 65 );
+}
+
+QTableView QTableCornerButton::section
+{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+		stop:0  rgb(23, 23, 23 ),
+		stop:1 rgb(31, 31, 32 ) );
+	margin: 0px;
+	border: 1px;
+	border-color: rgba(155, 153, 151, 100%);
+}
+
+QTableView::item:selected:active
+{
+	background-color: rgba(48, 57, 70, 70%);
+}
+QTableView::item:selected:!active
+{
+	background-color: rgba(46, 48, 54, 90%);
+	color: rgba(255, 255, 255, 60%);
+}
+QTableView::item:!selected:!active
+{
+}
+
+QTableView::item:!selected:hover
+{
+	color: rgba(255, 255, 255, 90%);
+}

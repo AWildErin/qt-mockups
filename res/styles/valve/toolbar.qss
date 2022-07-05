@@ -1,0 +1,12 @@
+QToolBar
+{
+	background: rgba( 255, 0, 0, 0% );
+	border: 1px solid  rgb(90, 90, 90, 0%);
+	border-radius: 6px;
+	spacing: 0px;
+}
+
+QToolBar::handle
+{
+	image: url(toolimages:/valve_base/handle.png);
+}

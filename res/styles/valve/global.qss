@@ -1,0 +1,42 @@
+*::up-arrow
+{
+	image: url(toolimages:/valve_base/arrow_up.png);
+	width: 7px;
+	height: 5px;
+}
+
+*::up-arrow:disabled
+{
+	image: url(toolimages:/valve_base/arrow_up_disabled.png);
+	width: 7px;
+	height: 5px;
+}
+
+*::down-arrow
+{
+	image: url(toolimages:/valve_base/arrow_down.png);
+	width: 7px;
+	height: 5px;
+}
+
+*::down-arrow:disabled
+{
+	image: url(toolimages:/valve_base/arrow_down_disabled.png);
+	width: 7px;
+	height: 5px;
+}
+
+
+*::left-arrow
+{
+	image: url(toolimages:/valve_base/arrow_left.png);
+	width: 7px;
+	height: 5px;
+}
+
+*::right-arrow
+{
+	image: url(toolimages:/valve_base/arrow_right.png);
+	width: 7px;
+	height: 5px;
+}

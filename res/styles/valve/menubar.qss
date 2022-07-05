@@ -1,0 +1,23 @@
+QMenuBar
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgba(70, 71, 72, 100%),
+		stop: 1 rgba(29, 29, 29, 100%) );
+
+	selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 #5D667D,
+		stop: 0.1 #5D667D,
+		stop: 1 #464D60 );
+
+	border-image: none;
+	border-style: none;
+	border-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(20, 20, 20, 50%);
+	padding: 3px;
+}
+
+QMenuBar::item
+{
+	background-color: transparent;
+}

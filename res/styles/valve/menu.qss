@@ -1,0 +1,84 @@
+QMenu
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: .25, y2: 1,
+		stop: 0 rgba(70, 71, 72, 100%),
+		stop: 1 rgba(42, 42, 42, 100%) );
+
+	selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 #5D667D,
+		stop: 0.1 #5D667D,
+		stop: 1 #464D60 );
+
+	selection-color: rgba(255, 251, 209, 100%);
+	margin: 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(20, 20,20, 40%);
+	padding: 2px;
+}
+
+
+QMenu::item:!selected 
+{
+ 	background-color: transparent;
+}
+
+QMenu::item:selected 
+{
+ 	background-color: transparent;
+ 		selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 #5D667D,
+		stop: 0.1 #5D667D,
+		stop: 1 #464D60 );
+}
+	
+QMenu::separator
+{
+	height: 1px;
+	background: rgba(99, 99, 99, 46%);
+	margin-left: 10px;
+	margin-right: 3px;
+	margin-top: 6px;
+	margin-bottom: 3px;
+}
+
+QMenu::indicator 
+{
+	width: 19px;
+ 	height: 19px;
+}
+
+QMenu::indicator:non-exclusive:unchecked
+{
+	image: url(toolimages:/valve_base/check_off.png);
+}
+ 	
+QMenu::indicator:non-exclusive:unchecked:selected
+{
+	image: url(toolimages:/valve_base/check_off_selected.png);
+}
+	
+QMenu::indicator:non-exclusive:checked
+{
+	image: url(toolimages:/valve_base/check.png);
+}
+QMenu::indicator:non-exclusive:checked:selected
+{
+	image: url(toolimages:/valve_base/check.png);
+}
+QMenu::indicator:exclusive:unchecked
+{
+	image: url(toolimages:/valve_base/radio_unselected.png);
+}
+QMenu::indicator:exclusive:unchecked:selected
+{
+	image: url(toolimages:/valve_base/radio_unselected_hover.png);
+}
+QMenu::indicator:exclusive:checked
+{
+	image: url(toolimages:/valve_base/radio_selected.png);
+}
+QMenu::indicator:exclusive:checked:selected
+{
+	image: url(toolimages:/valve_base/radio_selected.png);
+}

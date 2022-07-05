@@ -1,0 +1,13 @@
+QTabWidget::pane
+{
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgba(57, 57, 57, 100%),
+		stop: 1 rgba(73, 71, 69, 20%) );
+
+	padding: 0px;
+	border: 1px solid rgba(122, 122, 122, 20%);
+}
+	
+QTabWidget::pane:disabled
+{
+}

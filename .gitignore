@@ -1,9 +1,9 @@
+qtstuff
+out
 build
 .vscode 
 .idea
 .ccls-cache
-*.kdev4
-.kdev4/
 
 # CMake with Visual Studio
 .vs/
@@ -19,5 +19,3 @@ CMakeCache.txt
 
 # CMake with CLion
 cmake-build-*/
-
-

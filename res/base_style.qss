@@ -1,0 +1,9 @@
+QDialog
+{
+	background-color: #373737;
+}
+
+QWidget
+{
+	/* color: rgb(182, 182, 182); */
+}

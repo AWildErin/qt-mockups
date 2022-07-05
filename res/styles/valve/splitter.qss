@@ -1,0 +1,20 @@
+QSplitter
+{
+	background-color: rgb( 24, 24, 25 );
+	margin: 0px;
+	border: 0px;
+	width: 6px;
+	height: 6px;
+}
+
+QSplitter::handle:horizontal
+{
+	width: 4px;
+   	image: url(toolimages:/valve_base/handle_horizontal.png);
+}
+
+QSplitter::handle:vertical
+{
+	 height: 8px;
+	image: url(toolimages:/valve_base/handle_vertical.png);
+}

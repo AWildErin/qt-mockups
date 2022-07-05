@@ -1,0 +1,9 @@
+ui--CTextureControl
+{
+	background-color: #2A2A2A;
+}
+
+ui--CTextureControl > QLabel
+{
+	color: rgb(182, 182, 182);
+}

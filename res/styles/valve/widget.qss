@@ -1,0 +1,9 @@
+QWidget
+{
+	background-color: rgb( 54, 54, 54);
+	color: rgb(182, 182, 182);
+	selection-background-color: #4C5B7A;
+	selection-color: rgba(255, 252, 229, 100%);
+	/* font-family: "MS Dlg 2"; */
+	font-size: 11px;
+}

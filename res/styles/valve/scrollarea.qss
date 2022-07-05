@@ -1,0 +1,4 @@
+.QScrollArea
+{
+	border-radius: 0px;
+}

@@ -1,5 +1,41 @@
 <!DOCTYPE RCC><RCC version="1.0">
-<qresource prefix="resource">
-	<file>chaos.png</file>
-</qresource>
+	<qresource prefix="resource">
+		<file>base_style.qss</file>
+		
+		<!-- Component Styles -->
+		<file>styles/titledgroupbox.qss</file>
+		<file>styles/texturecontrol.qss</file>
+		
+		<!-- Valve Style -->
+		<file>styles/valve/abstractitemview.qss</file>
+		<file>styles/valve/abstractspinbox.qss</file>
+		<file>styles/valve/checkbox.qss</file>
+		<file>styles/valve/combobox.qss</file>
+		<file>styles/valve/dialogbuttonbox.qss</file>
+		<file>styles/valve/frame.qss</file>
+		<file>styles/valve/global.qss</file>
+		<file>styles/valve/groupbox.qss</file>
+		<file>styles/valve/headerview.qss</file>
+		<file>styles/valve/label.qss</file>
+		<file>styles/valve/lineedit.qss</file>
+		<file>styles/valve/menu.qss</file>
+		<file>styles/valve/menubar.qss</file>
+		<file>styles/valve/messagebox.qss</file>
+		<file>styles/valve/plaintextedit.qss</file>
+		<file>styles/valve/progressbar.qss</file>
+		<file>styles/valve/pushbutton.qss</file>
+		<file>styles/valve/radiobutton.qss</file>
+		<file>styles/valve/scrollarea.qss</file>
+		<file>styles/valve/scrollbar.qss</file>
+		<file>styles/valve/slider.qss</file>
+		<file>styles/valve/splitter.qss</file>
+		<file>styles/valve/tabbar.qss</file>
+		<file>styles/valve/tableview.qss</file>
+		<file>styles/valve/tabwidget.qss</file>
+		<file>styles/valve/toolbar.qss</file>
+		<file>styles/valve/tooltip.qss</file>
+		<file>styles/valve/treeview.qss</file>
+		<file>styles/valve/widget.qss</file>
+		<file>styles/valve/toolbutton.qss</file>
+	</qresource>
 </RCC>

@@ -1,0 +1,44 @@
+QGroupBox
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 ,
+		stop: 1 rgba(73, 71, 69, 25%) );
+	border: 1px solid rgba(146, 144, 142, 20%);
+	border-radius: 5px;
+	margin-top: 2ex;
+}
+
+QGroupBox::title
+{
+	subcontrol-origin: margin;
+	subcontrol-position: top left;
+	margin-top: -2px;
+	padding: 0px 7px;
+/*
+	background-color: qradialgradient(cx: 0.3, cy: -0.4, fx: 0.3, fy: -0.4,
+		radius: 1.35,
+		stop: 0 rgba(63, 61, 59, 0%),
+		stop: 0 rgba(63, 61, 59, 100%) );
+*/
+	background-color: qradialgradient(cx: 0.5, cy: 0.5, fx: 0.5, fy: 0.5,
+	radius: 0.45,
+		stop: 0 rgba(54, 54, 54, 0%),
+		stop: 0.3 rgba(61, 60, 59, 100%),
+		stop: 0.5 rgba(61, 60, 59, 100%),
+		stop: 0.6 rgba(61, 60, 59, 100%),
+		stop: 1 rgba(61, 60, 59, 0%));
+}
+
+QGroupBox::indicator
+{
+	margin-top: 0px;
+}
+
+QGroupBox:disabled
+{
+	color: rgb(130, 130, 130, 38%);
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgba(44, 44, 44, 0%),
+		stop: 1 rgba(44, 44, 44, 14%) );
+	border: 1px solid rgba(73, 71, 69, 20%);
+}

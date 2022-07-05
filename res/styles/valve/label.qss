@@ -1,0 +1,6 @@
+QLabel
+{
+	border-image: none;
+	background-color: transparent;
+	padding: 0 px;
+}

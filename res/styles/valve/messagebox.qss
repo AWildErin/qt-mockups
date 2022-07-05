@@ -1,0 +1,8 @@
+QMessageBox QPushButton
+{
+	background-color: rgba(168, 168, 168, 0%);
+	border-image: url(toolimages:/valve_base/pushbutton_enabled.png) 6;
+	border-width: 6;
+	color: rgb(220, 220, 220);
+	width: 130;
+}

@@ -1,0 +1,4 @@
+.QFrame
+{
+	border-radius: 0px;
+}

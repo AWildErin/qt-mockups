@@ -1,0 +1,34 @@
+QAbstractItemView
+{
+	background-color: rgb( 38, 38, 39 );
+	selection-background-color: rgba(49, 62, 81, 100%);
+	selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgba(69, 76, 87, 100%),
+		stop: 0.55 rgba(69, 76, 87, 80%),
+		stop: 1 rgba(69, 76, 87, 100%) );
+	color: rgba(182, 182, 182, 100%);
+	selection-color: rgba(255, 255, 255, 100%);
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba( 155, 153, 151, 25%);
+	border-radius: 0px;
+}
+
+QAbstractItemView:focus
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgba(155, 153, 151, 25%);
+	border-radius: 0px;
+}
+
+QAbstractItemView:disabled
+{
+	background-color: rgb( 38, 38, 39 );
+	 selection-background-color: rgba(0, 0, 0, 100%);
+	 selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+		stop: 0 rgba(69, 76, 87, 100%),
+		stop: 0.55 rgba(69, 76, 87, 80%),
+		stop: 1 rgba(69, 76, 87, 100%) );
+	 selection-color: rgba(255, 251, 209, 100%);
+}

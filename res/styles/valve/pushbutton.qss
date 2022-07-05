@@ -1,0 +1,91 @@
+QPushButton
+{
+	background-color: rgba(168, 168, 168, 0%);
+	border-image: url(toolimages:/valve_base/pushbutton_enabled.png) 3;
+	border-width: 3;
+	padding: 3;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: rgb(220, 220, 220);
+}
+
+QPushButton:focus
+{
+	border-image: url(toolimages:/valve_base/pushbutton_focus.png) 3;
+	border-width: 3;
+	color: rgb(230, 230, 230);
+}
+
+QPushButton:focus:hover
+{
+	border-image: url(toolimages:/valve_base/pushbutton_focus.png) 3;
+	border-width: 3;
+	color: white;
+}
+
+QPushButton:hover
+{
+	border-image: url(toolimages:/valve_base/pushbutton_hover.png) 3;
+	border-width: 3;
+	color: white;
+}
+
+QPushButton:checked
+{
+	border-image: url(toolimages:/valve_base/pushbutton_checked.png) 3;
+	border-width: 3;
+	color: rgb(240, 240, 240);
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+
+QPushButton:checked:hover
+{
+	border-image: url(toolimages:/valve_base/pushbutton_checked_hover.png) 3;
+	border-width: 3;
+	color: rgb(240, 240, 240);
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+
+QPushButton:checked:focus
+{
+	border-image: url(toolimages:/valve_base/pushbutton_checked_focus.png) 3;
+	border-width: 3;
+	color: rgb(240, 240, 240);
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+
+QPushButton:focus:hover:pressed
+{
+	border-image: url(toolimages:/valve_base/pushbutton_pressed.png) 3;
+	border-width: 3;
+	padding-top: 4px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 2px;
+	color: white;
+}
+
+QPushButton:flat
+{
+	border-image: url(toolimages:/valve_base/pushbutton_flat.png) 6;
+}
+
+QPushButton:flat:focus
+{
+	border-image: url(toolimages:/valve_base/pushbutton_flat_focus.png) 6;
+}
+
+QPushButton:disabled
+{
+	border-image: url(toolimages:/valve_base/pushbutton_disabled.png) 6;
+	color: rgb(230, 230, 230, 37%);
+}

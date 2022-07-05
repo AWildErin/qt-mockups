@@ -1,0 +1,41 @@
+QTabBar::tab
+{
+	background: rgb(44, 44,44, 40%);
+	color: rgb(182, 182, 182, 70%);
+	border: 1px solid rgba(122, 122, 122, 20%);
+	padding: 5px;
+	min-width: 40px;
+}
+
+QTabBar::tab:selected
+{
+	color: rgb(255, 255, 255 );
+}
+
+QTabBar::tab:!selected {
+	 margin-top: 2px; /* make non-selected tabs look smaller */
+}
+
+QTabBar::close-button::selected
+{
+	padding-top: 2px;
+	image: url(toolimages:/valve_base/tab-closebutton-selected.png);
+}
+
+QTabBar::close-button::selected:hover
+{
+	padding-top: 2px;
+	image: url(toolimages:/valve_base/tab-closebutton-selected-hovered.png);
+}
+
+QTabBar::close-button
+{
+	padding-top: 2px;
+	image: url(toolimages:/valve_base/tab-closebutton.png);
+}
+
+QTabBar::close-button:hover
+{
+	padding-top: 2px;
+	image: url(toolimages:/valve_base/tab-closebutton-hovered.png);
+}
